@@ -14,4 +14,10 @@ a = compile(str,'','eval')
 print(eval(a))
 
 '''
+ws = ["desssssss","fxs","sdddd","qwerasdf"]
+for w in ws[:]:
+    print(w)
+    if len(w) > 6:
+        ws.insert(0,'w')
+print(ws)
 
